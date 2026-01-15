@@ -75,10 +75,10 @@ for line in "${LINES[@]}"; do
 
   if [[ -z "$sec" || "$sec" == "--" ]]; then
     icon='<span rise="2000"></span>'  
-    sec_label="open"
+    sec_label="Open"
   else
     icon='<span rise="2000"></span>'  
-    sec_label="secured"
+    sec_label="Secured"
   fi
 
   MENU_ITEMS+=( "${icon}  ${ssid}  <span alpha=\"70%\">(${sec_label}, ${sig}%)</span>" )
