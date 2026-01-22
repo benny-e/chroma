@@ -19,8 +19,7 @@ elif (( PCT <= 66 )); then ICON="󰃟"
 else                      ICON="󰃠"
 fi
 
-# Font + size ONLY (styling like color handled by mako)
-BODY="<span font='Hack Nerd Font 20'>${ICON}</span>"
+BODY="<span font='JetBrains Mono Font 20'>${ICON}</span>"
 
 notify-send \
   -a "osd" \
