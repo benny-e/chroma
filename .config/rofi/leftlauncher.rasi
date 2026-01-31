@@ -28,7 +28,7 @@ window {
   anchor: northwest;
 
   x-offset: 0px;
-  y-offset: 0px;
+  y-offset: 2px;
 
   width: 420px;
   height: 75%;
@@ -36,7 +36,7 @@ window {
   background-color: rgba(24, 24, 24, 0.96);
   border: 2px;
   border-color: #1793d1;
-  border-radius: 3px;
+  border-radius: 2px;
 }
 
 
@@ -90,7 +90,7 @@ element {
   text-color: @text;
   border: 1px;
   border-color: transparent;
-  border-radius: 5px;
+  border-radius: 2px;
   padding: 10px 12px;
 }
 

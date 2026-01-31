@@ -34,21 +34,21 @@ window {
 
   border: 2px;
   border-color: @accent;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 mainbox {
   padding: 10px;
   spacing: 8px;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 inputbar {
   children: [ prompt, entry ];
   padding: 6px;
   background-color: @bg-alt;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 prompt {
@@ -68,7 +68,7 @@ message {
   padding: 8px;
   background-color: rgba(28, 20, 14, 0.92);
   text-color: rgba(255, 255, 255, 0.75);
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 listview {
@@ -78,13 +78,13 @@ listview {
   scrollbar: false;
 
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 element {
   padding: 8px;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 element-text {
@@ -94,7 +94,7 @@ element-text {
 
 element selected {
   background-color: #1a2030;
-  border-radius: 4px;
+  border-radius: 2px;
   border: 2px;
   border-color: @accent;
 }
@@ -102,12 +102,12 @@ element selected {
 scrollbar {
   width: 6px;
   background-color: transparent;
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 scrollbar handle {
   background-color: rgba(255, 122, 0, 0.55);
-  border-radius: 4px;
+  border-radius: 2px;
 }
 
 

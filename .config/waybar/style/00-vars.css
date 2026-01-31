@@ -4,8 +4,8 @@
 @define-color bg_alt         #151720;
 @define-color window_main    rgba(43, 48, 59, 0.6);
 @define-color tooltips_bg    rgba(24, 24, 24, 0.92);
-@define-color workspaces_bg  rgba(50, 50, 50, 0.8);
-@define-color trayc rgba(50, 50, 50, 0.8);
+@define-color workspaces_bg  rgba(35, 35, 35, 0.8);
+@define-color trayc rgba(35, 35, 35, 0.8);
 
 /* Wi-Fi / Network */
 @define-color net_fg  #00e5ff; 
@@ -38,3 +38,8 @@
 @define-color bat_good #00ff6a;
 @define-color bat_norm #ffffff;
 
+
+/* Bluetooth */
+@define-color bt_connected #1e6cff;
+@define-color bt_on #1e6cff;
+@define-color bt_off #1e6cff;
