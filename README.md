@@ -19,6 +19,7 @@ VPN menu - Rofi menu for selecting VPNs through network manager
 Network menu - List nearby networks and prompts for password      
 Rofi click-to-close - Adds outside click to close for rofi  
 Mako OSD - Volume/brightness on screen displays  
+Bluetooth - Rofi menu for searching and connecting to bluetooth/display bluetooth status   
 
 
 
