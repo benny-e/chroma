@@ -1,6 +1,7 @@
 {
   "idle_inhibitor": {
     "format": "<span rise='-3000' size='12000'>{icon}</span> ",
+    "tooltip": false,
     "format-icons": {
       "activated": " 󰅶",
       "deactivated": " 󰾪"

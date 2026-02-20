@@ -1,6 +1,6 @@
 {
   "custom/terminal": {
-    "format": " ",
+    "format": " ",
     "on-click": "kitty",
     "tooltip": false,
     "icon-size": 50

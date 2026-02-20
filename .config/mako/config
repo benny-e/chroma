@@ -1,4 +1,4 @@
-font=Hack 12
+font=JetBrainsMono Nerd Font 12
 format=<b>%s</b>\n%b
 icons=0
 
@@ -20,7 +20,7 @@ border-color=#1793d1
 border-color=#c88dfc
 background-color=#141020EB
 
-[app-name=NetworkManager]
+[app-name=Network]
 border-color=#00e5ff
 background-color=#171c32EB
 
@@ -63,6 +63,14 @@ background-color=#18181BEB
 padding=14
 width=250
 
+[app-name=Bluetooth]
+background-color=#161d2eeb
+text-color=#e9f0ff
+border-color=#1e6cff
+border-size=2
+border-radius=2
+padding=12
+default-timeout=3000
 
 [urgency=critical]
 background-color=#1f0d0d

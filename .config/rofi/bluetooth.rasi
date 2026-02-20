@@ -18,7 +18,7 @@ window {
 
     background-color: rgba(22, 29, 46, 0.92);
     border: 2px;
-    border-color: #1e6cff;   /* darker bluetooth blue */
+    border-color: #1e6cff;   
     border-radius: 2px;
     padding: 12px;
 }
@@ -29,7 +29,6 @@ mainbox {
     children: [ prompt, listview ];
 }
 
-/* Hide the search bar entirely */
 inputbar {
     enabled: false;
 }

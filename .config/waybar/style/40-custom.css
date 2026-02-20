@@ -2,6 +2,7 @@
 #custom-fileman,
 #custom-terminal,
 #custom-discord, 
+#custom-nvim,
 #custom-virtmanager{
   padding-top: 4px;
   padding-bottom: 4px;
@@ -24,7 +25,7 @@
 }
 
 #custom-browser {
-  color: #ff6536;
+  color: #ff631c;
   padding-left: 6px;
   background-color: @trayc;
 }
@@ -34,6 +35,13 @@
   background-color: @trayc;
 }
 
+#custom-nvim{
+  color: #9e9e9e;
+  padding-left: 6px;
+  background-color: @trayc;
+}
+
+
 #custom-terminal {
   color: #39FF14;
   background-color: @trayc;
@@ -42,10 +50,10 @@
 #custom-virtmanager {
   color: #1efaed;
   background-color: @trayc;
+  padding-left: 0px;
   padding-right: 18px;
   border-top-right-radius: 4px;
   border-bottom-right-radius: 4px;
-  padding-left: 0px
 }
 
 #custom-discord {

@@ -8,6 +8,7 @@
     "~/.config/waybar/modules/custom/fileman.jsonc",
     "~/.config/waybar/modules/custom/terminal.jsonc",
     "~/.config/waybar/modules/custom/virtmanager.jsonc",
+    "~/.config/waybar/modules/custom/nvim.jsonc",
     "~/.config/waybar/modules/custom/spacers.jsonc",
     "~/.config/waybar/modules/bluetooth.jsonc",
     "~/.config/waybar/modules/custom/vpn.jsonc",
@@ -28,6 +29,7 @@
   "modules-left": [
     "custom/arch",
     "hyprland/workspaces",
+    "custom/nvim",
     "custom/browser",
     "custom/fileman",
     "custom/terminal",
