@@ -5,9 +5,7 @@
     "states": {
 	    "warning": 75,
 	    "critical": 90
-    },
-
-
+    }
   }
 }
 

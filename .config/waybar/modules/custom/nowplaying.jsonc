@@ -1,0 +1,8 @@
+{
+    "custom/nowplaying": {
+	"exec": "playerctl metadata --format \"<span size='11000'></span> {{title}}\" 2>/dev/null || echo ''",
+	"interval": 2,
+	"max-length": 20,
+	"tooltip": false
+    }
+}

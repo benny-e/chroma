@@ -1,17 +1,11 @@
 {
-  "bluetooth": {
-    "on-click": "~/.config/scripts/bluetooth.sh",
-
-    "format": "{icon}",
-    "format-icons": {
-      "disabled": "󰂲",  
-      "off":      "󰂲",   
-      "on":       "󰂯",   
-      "connected":"󰂱"    
-    },
-
-    "format-connected": "󰂱",
-    "tooltip-format-connected": "Bluetooth: {device_alias}"
-  }
+"bluetooth": {
+  "format": "",
+  "format-connected": "",
+  "format-off": "󰂲",
+  "format-disabled": "󰂲",
+  "tooltip-format": "{status}",
+  "on-click": "blueman-manager",
+  "tooltip-format-connected": "Bluetooth: {device_alias}"
 }
-
+}

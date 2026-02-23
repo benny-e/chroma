@@ -3,7 +3,7 @@ set -u
 set -o pipefail
 
 LAUNCHER_THEME="$HOME/.config/rofi/leftlauncher.rasi"
-FOOTER_SCRIPT="$HOME/.config/scripts/power-footer"
+FOOTER_SCRIPT="$HOME/.config/scripts/power-footer.sh"
 
 PID_LAUNCHER="/run/user/$UID/rofi-launcher.pid"
 PID_FOOTER="/run/user/$UID/rofi-footer.pid"

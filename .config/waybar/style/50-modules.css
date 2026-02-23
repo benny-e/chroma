@@ -104,33 +104,45 @@ padding-right: 0px;
   color: #ffffff;
 }
 
-
-#bluetooth.off {
+#bluetooth {
   font-size: 17px;
-  color: @bt_off;
-  border-bottom: 2px solid @bt_off;
   padding: 0 2px;
   margin: 0;
   padding-top: 5px;
   padding-left: 0px;
-}
 
-#bluetooth.on {
-  font-size: 17px;
   color: @bt_on;
   border-bottom: 2px solid @bt_on;
-  padding: 0 2px;
-  margin: 0;
-  padding-top: 5px;
-  padding-left: 0px;
 }
 
+/* Connected overrides */
 #bluetooth.connected {
-  font-size: 17px;
   color: @bt_connected;
   border-bottom: 2px solid @bt_connected;
-  padding: 0 2px;
-  margin: 0;
-  padding-top: 5px;
 }
+
+/* Powered off overrides */
+#bluetooth.disabled {
+  color: @bt_off;
+  border-bottom: 2px solid @bt_off;
+}
+
+
+#idle_inhibitor {
+  padding-top: 0px;
+  color: rgba(255,255,255,0.55);
+}
+
+#idle_inhibitor.activated {
+  color: #4aff00;
+  }
+
+#bluetooth:hover,
+#audio:hover, 
+#network:hover,
+#idle_inhibitor:hover {
+   border-radius: 0px;
+   text-shadow: 0 0 9px rgba(0, 0, 0, 0.9);
+}
+
 

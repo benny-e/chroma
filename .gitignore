@@ -2,4 +2,4 @@
 .cache/
 node_modules/
 __pycache__/
-
+*.bak
